@@ -1,0 +1,141 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	background: rgb(255,255,255);
+	}
+
+
+p { 
+	color: #000000;
+	font-size: 12px;
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	}
+
+#canvasMap	{
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+#ActionBar {
+	z-index: 2;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 57px;
+	height: 100%;
+	
+}
+
+.button {
+	position: fixed;
+    background-color: #e7e7e7; /* Grey */
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    
+}
+.button:hover {
+	background-color: #aaaaaa;
+
+}
+.button:active {
+	background-color: #ffffff;
+	transform: translateY(2px);
+}
+
+/* position of individual buttons and labels */
+#lblControls {
+	top: 10px;
+	left: 6px;
+}
+#btnReload {
+	width: 51px;
+	top: 25px;
+	left: 3px;
+	font-size: 12px;
+	}
+#btnStop {
+	top: 51px;
+	left: 3px;
+}
+#btnPlay {
+	top: 51px;
+	left: 29px;
+}
+#lblSpeed{
+	top: 85px;
+	left: 10px;
+}
+#btnSpd1 {
+	top: 100px;
+	left: 3px;
+}
+#btnSpd2 {
+	top: 100px;
+	left: 29px;
+}
+#btnSpd3 {
+	top: 126px;
+	left: 3px;
+}
+#btnSpd4 {
+	top: 126px;
+	left: 29px;
+}
+#lblZoom {
+	top: 160;
+	left: 12px;
+}
+#btnZoomin {
+	top: 175px;
+	left: 3px;
+}
+#btnZoomout {
+	top: 175px;
+	left: 29px;
+}
+#lblNav {
+	top: 209px;
+	left: 20px;
+}
+
+#btnUP {
+	top: 224px;
+	left: 16px;
+}
+#btnDOWN {
+	top: 276px;
+	left: 16px;
+}
+#btnLEFT {
+	top: 250px;
+	left: 3px;
+}
+#btnRIGHT {
+	top: 250px;
+	left: 29px;
+}
+#lblSet {
+	top:  310;
+	left: 20px;
+}
+#btnReset {
+	top: 325px;
+	left: 3px;
+	}
+#btnGrid {
+	top: 325px;
+	left: 29px;
+	}
+

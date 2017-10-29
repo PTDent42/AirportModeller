@@ -1,0 +1,4 @@
+SectorName,default lat, default long, default zoom
+C or P (cirle or polygon), followed by center lat, center long, radius if C, or a list of points if P(olygon)
+&F
+for each fix -->  fix lat, fix long, display type <- display type will determine shape and color
